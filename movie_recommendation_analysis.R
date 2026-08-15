@@ -11,7 +11,7 @@ library(ggplot2)
 library(dplyr)
 
 # Load the dataset
-movie_data <- read.xlsx("Desktop/R assignment/project/simulated_movie_recommendation_dataset_600_records.xlsx")
+movie_data <- read.xlsx("simulated_movie_recommendation_dataset_600_records.xlsx")
 
 # Exploratory Data Analysis (EDA)
 str(movie_data)
